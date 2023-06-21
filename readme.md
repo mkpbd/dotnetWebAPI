@@ -10,7 +10,7 @@
 Create Student Controller
 Http Get method Calls
 
-```dotnet
+```Csharp
 using Microsoft.AspNetCore.Mvc;
 namespace BasicWEBApI.Controllers
 {
