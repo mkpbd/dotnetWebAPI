@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj": {}
+    "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBAPI\\BasicWEBApI\\BasicWEBApI.csproj": {}
   },
   "projects": {
-    "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj": {
+    "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBAPI\\BasicWEBApI\\BasicWEBApI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
+        "projectUniqueName": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBAPI\\BasicWEBApI\\BasicWEBApI.csproj",
         "projectName": "BasicWEBApI",
-        "projectPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
+        "projectPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBAPI\\BasicWEBApI\\BasicWEBApI.csproj",
         "packagesPath": "C:\\Users\\MOSTOFA KAMAL\\.nuget\\packages\\",
-        "outputPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\obj\\",
+        "outputPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBAPI\\BasicWEBApI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MOSTOFA KAMAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
