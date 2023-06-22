@@ -1,3 +1,5 @@
+![1687450355141](image/readme/1687450355141.png)
+
 # C# Web API Repository
 
 Some Tools Need to development Web api
@@ -83,3 +85,55 @@ The HyperText Transport Protocol status code is also one of the important compon
 3. **3XX** : Redirection, whenever you get 3XX as the response code, it means it is re-directional i.e. some re-directional is happening on the server. (Ex. 300, 301, etc.)
 4. **4XX** : Client Error, whenever you get 4XX as the response code, it means there is some problem with your request. (Ex: 400, 404, etc.)
 5. **5XX** : Server Error. Whenever you get 5XX as the response code, it means there is some problem in the server. (Ex: 500, etc.).
+
+## **SP.NET Core Web API using Postman**
+
+![1687449729714](image/readme/1687449729714.png)
+
+![1687449778196](image/readme/1687449778196.png)
+
+![1687449904867](image/readme/1687449904867.png)
+
+![1687449923852](image/readme/1687449923852.png)
+
+![1687449957300](image/readme/1687449957300.png)
+
+##### **Selecting HTTP Method:**
+
+![1687449986105](image/readme/1687449986105.png)
+
+##### **Enter the Request URL:**
+
+![1687450016341](image/readme/1687450016341.png)
+
+**Params:** If you want to send any parameters then you need to set those parameters as key-value pairs in the Params tab. In our example, we not going to pass any parameters to the Web API, so we keep this empty.
+
+##### **Authorization**
+
+![1687450075642](image/readme/1687450075642.png)
+
+##### **Headers:**
+
+The next one is the Headers tab. As you can see, the postman by default sends the following headers to the Web API. If your API needs some additional headers, then you can set those headers here only in the form of Key-Value Pairs. In our example, the API does not require any additional headers. So, we are only going with the default headers.
+
+![1687450137898](image/readme/1687450137898.png)
+
+##### **Body:**
+
+If your API accepts some data in the body, then you can send such data in the body tab. Further depending upon the type of data you can choose form-data, raw, binary, etc as shown in the below image. As our API is a GET request, as it doesn’t require any data, so none is selected by default.
+
+![1687450187721](image/readme/1687450187721.png)
+
+![1687450220118](image/readme/1687450220118.png)
+
+![1687450237850](image/readme/1687450237850.png)
+
+![1687450253331](image/readme/1687450253331.png)
+
+![1687450517979](image/readme/1687450517979.png)
+
+![1687450546131](image/readme/1687450546131.png)
+
+![1687450574399](image/readme/1687450574399.png)
+
+![1687450724554](image/readme/1687450724554.png)
