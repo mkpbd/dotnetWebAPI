@@ -169,8 +169,7 @@ namespace BasicWEBApI.Controllers
 | HttpGet    | Student           | [https://localhost:7126/api/Student](https://localhost:7126/api/Student)                            |
 | HttpGet    | StudentById       | [https://localhost:7126/api/StudentById/1](https://localhost:7126/api/StudentById/1)                |
 | HttpDelete | StudentDeleteById | [https://localhost:7126/api/StudentDeleteById/](https://localhost:7126/api/StudentDeleteById/2){id} |
-|            |                   | <br />                                                                                           |
-
+|            |                   |                                                                                                  |
 
 **HTTP Or Route Constraint Parametter   (list of constraints from)**
 
