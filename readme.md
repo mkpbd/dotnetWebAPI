@@ -1,8 +1,9 @@
 # C# Web API Repository
 
-1. OpenAPI is a specification for describing HTTP-based APIs, most notably RESTful APIs.
+### **Need for Web APIs:**
 
-2. Swagger is a term that refers to a set of tools by SmartBear. It used to refer to the OpenAPI specification itself and is sometimes still used that way.
-3. Describing APIs by writing a definition (a YAML file) allows you to leverage  tools to automate a lot of API-related processes.
-4. OpenAPI is useful for consumers, producers, and API designers. Each can benefit from knowing and utilizing tools that consume OpenAPI definitions.
-5. We will explain how to work with OpenAPI. With this knowledge base, you can ultimately incorporate OpenAPI into your team and organization workflows.
+As you can see in the below image, on the left-hand side, we have all three applications and on the right-hand side, we have the database as shown in the below image.
+
+![ASP.NET Core Web API](https://dotnettutorials.net/wp-content/uploads/2020/11/word-image-278.png?ezimgfmt=rs:545x246/rscb1/ng:webp/ngcb1 "ASP.NET Core Web API")
+
+Our goal is to establish communication between all these three applications and the database. So, what we will do? We will add a new Web API Project. This Web API Project will interact with the database. And all three applications will only interact with the Web API Project as shown in the below image.
