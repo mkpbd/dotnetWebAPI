@@ -469,19 +469,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MOSTOFA KAMAL\\.nuget\\packages\\": {}
+    "C:\\Users\\Mostofa kamal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
+      "projectUniqueName": "F:\\Jallal\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
       "projectName": "BasicWEBApI",
-      "projectPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
-      "packagesPath": "C:\\Users\\MOSTOFA KAMAL\\.nuget\\packages\\",
-      "outputPath": "E:\\CsharpWebAPI\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\obj\\",
+      "projectPath": "F:\\Jallal\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\BasicWEBApI.csproj",
+      "packagesPath": "C:\\Users\\Mostofa kamal\\.nuget\\packages\\",
+      "outputPath": "F:\\Jallal\\dotnetWebAPI\\WEBApI\\BasicWEBApI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MOSTOFA KAMAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mostofa kamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -489,6 +494,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
