@@ -23,5 +23,17 @@
                 // Configure IIS options here if needed
             });
         }
+
+        // use  Middileware 
+
+        //public static IApplicationBuilder Use(this IApplicationBuilder app, Func<HttpContext, Func<Task>, Task> middleware);
+
+        //public static IApplicationBuilder Use(this IApplicationBuilder app, Func<HttpContext, Func<Task>, Task> middleware);
+
+
+        // using the Map and MapWhen Method for middleware 
+
+        //public static IApplicationBuilder Map(this IApplicationBuilder app, PathString pathMatch, Action<IApplicationBuilder> configuration);
+
     }
 }
