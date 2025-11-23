@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="cleanArchitecture/cleanArchitecture.csproj" />
+  <Project Path="Contracts/Contracts.csproj" Id="80090237-dbb1-467d-9be7-cb49db825acd" />
+  <Project Path="LoggerService/LoggerService.csproj" Id="7d1f1b7e-ad69-4932-904f-1d2e218e0b5e" />
 </Solution>

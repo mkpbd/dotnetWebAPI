@@ -1,5 +1,6 @@
 
 using cleanArchitecture.Extensions;
+using NLog;
 
 namespace cleanArchitecture
 {
@@ -14,10 +15,13 @@ namespace cleanArchitecture
             builder.Services.ConfigureCors();
             // IIS configuration
             builder.Services.ConfigureIISIntegration();
+
+            // Configure logger service
+            builder.Services.ConfigureLoggerService();
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
-
+            LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

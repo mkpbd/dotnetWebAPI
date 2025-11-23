@@ -1,4 +1,7 @@
-﻿namespace cleanArchitecture.Extensions
+﻿using Contracts;
+using LoggerService;
+
+namespace cleanArchitecture.Extensions
 {
     public static class ServiceExtensions
     {
@@ -34,6 +37,10 @@
         // using the Map and MapWhen Method for middleware 
 
         //public static IApplicationBuilder Map(this IApplicationBuilder app, PathString pathMatch, Action<IApplicationBuilder> configuration);
+
+
+        // Configuration logger service 
+        public static void ConfigureLoggerService(this IServiceCollection services) => services.AddSingleton<ILoggerManager, LoggerManager>();
 
     }
 }
