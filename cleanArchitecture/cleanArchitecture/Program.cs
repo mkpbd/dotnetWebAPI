@@ -30,6 +30,8 @@ namespace cleanArchitecture
                 app.MapOpenApi();
             }
 
+            // use  hsts  strict transport security header
+            app.UseHsts();
             app.UseHttpsRedirection();
 
             // statics files 
@@ -41,8 +43,7 @@ namespace cleanArchitecture
             });
             // use cores
             app.UseCors("CorsPolicy");
-            // use  hsts  strict transport security header
-            app.UseHsts();
+         
             app.UseAuthorization();
             //============================ Run Middle ware =======================
 
