@@ -15,8 +15,8 @@ namespace cleanArchitecture.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name ="logger")]
-        public string Get()
+        [HttpGet("logger")]
+        public string GetLogger()
         {
             _logger.LogInfo("This is info message from WeatherForecastController.");
             _logger.LogDebug("This is debug message from WeatherForecastController.");
