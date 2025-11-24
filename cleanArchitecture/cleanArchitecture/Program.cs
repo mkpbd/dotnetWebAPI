@@ -32,6 +32,17 @@ namespace cleanArchitecture
 
             app.UseHttpsRedirection();
 
+            // statics files 
+            app.UseStaticFiles();
+            // use forwaded headers   proxy headers  to the current request
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = Microsoft.AspNetCore.HttpOverrides.ForwardedHeaders.All
+            });
+            // use cores
+            app.UseCors("CorsPolicy");
+            // use  hsts  strict transport security header
+            app.UseHsts();
             app.UseAuthorization();
             //============================ Run Middle ware =======================
 
